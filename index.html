@@ -5,10 +5,14 @@
 	<title>Hamilton Judo Club</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/bootstrap-theme.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<meta name="viewport" content="width=device-width, intial-scale=1">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/myscript.js"></script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar-fixed-top">
 
 	<header>
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation"> 
@@ -26,284 +30,261 @@
 				<div class="collapse navbar-collapse" id="collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="#featured">Home</a><li>
-						<li><a href="#mission">Mission</a><li>
-						<li><a href="#coaches">Coaches</a><li>
-						<li><a href="#training">Training Schedule</a><li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
+							<li><a href="#mission">Mission</a><li>
+								<li><a href="#coaches">Coaches</a><li>
+									<li><a href="#training">Training Schedule</a><li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					</header>
 
-	<div>
+					<div>
 
-		<div class="container" id="featured"> <!-- @begin container-fluid -->
+						<div class="container" id="featured"> <!-- @begin container-fluid -->
 
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
-				<!-- Indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				</ol>
+								<!-- Indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+									<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+								</ol>
 
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox">
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner" role="listbox">
 
-					<div class="item active">
-						<img src="images/ground copy.jpg" alt="...">
-						<div class="carousel-caption">
-							<p>Ground Work</p>
-						</div>
-					</div>
+									<div class="item active">
+										<img src="images/ground copy.jpg" alt="...">
+										<div class="carousel-caption">
+											<p>Ground Work</p>
+										</div>
+									</div>
 
-					<div class="item">
-						<img src="images/coaches.png" alt="...">
-						<div class="carousel-caption">
-							<p>Coaches</p>
-						</div>
-					</div>
-					<div class="item">
-						<img src="images/logo.png" alt="...">
-						<div class="carousel-caption">
-							<p>Logo</p>
-						</div>
-					</div>
-					<div class="item">
-						<img src="images/session.png" alt="...">
-						<div class="carousel-caption">
-							<p>Session</p>
-						</div>
-					</div>
-
-
-
-				</div>
-
-				<!-- Controls -->
-				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-		</div> <!-- @end container-fluid -->
+									<div class="item">
+										<img src="images/coaches.png" alt="...">
+										<div class="carousel-caption">
+											<p>Coaches</p>
+										</div>
+									</div>
+									<div class="item">
+										<img src="images/logo.png" alt="...">
+										<div class="carousel-caption">
+											<p>Logo</p>
+										</div>
+									</div>
+									<div class="item">
+										<img src="images/session.png" alt="...">
+										<div class="carousel-caption">
+											<p>Session</p>
+										</div>
+									</div>
 
 
-		<div class="container"> <!-- @begin main -->
-			<div class="page" id="featured">
-				<div class="change">
-					<div class="container">
-						<article id ="times" class="coach col-sm-6">
-							<h3><strong>Classes</strong><h3>
-							<h4><strong>Juniors</strong><h4>
-							<p>Wednesday 7pm-8pm<p>
-							<p>Friday 7pm-8pm<p>
-							<h3><strong>Seniors</strong><h3>
-							<p>Wednesday 8pm-9:30pm<p>
-							<p>Friday 8pm-9:30pm<p>
-						</article>
 
-						<article class="coach col-sm-6">
-							<img id="my-image" src="images/blacklogo.jpg">
-						</article>
+								</div>
 
-					</div>
-				</div>
-			</div>
-		</div> <!-- @end main -->
+								<!-- Controls -->
+								<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</div> <!-- @end container-fluid -->
 
-		<div class="container"> <!-- @begin mission -->
-			<div class="page" id ="mission">
-				<h3> Our Mission</h3>
-				<p>Our Mission is to continue to be a thriving part of the Hamilton community. Allowing people from all walks of life to enjoy our sport.<p>
 
-				<h4> Our History</h4>
-				<p>Formed over 50 years ago in the old town of Hamilton. Self suffient from the start, it automatic became a sport focal point of the community. One of the priniple features was its ability to have its own premises which allowed the developement of top Scottish, British and European champions. These players did train every evening at little costs which was the enabler for there progression in the sport.<p>
-				<p>The fundementals have never changed in which all players are encouraged to develop there own coaching skills and pass on the Hamilton ethos, to the next generation. Hamilton were particular successfull during the 70's, 80's and 90's. With a brand of Judo which was synonomous with high energy, complex hip techniques and the ability to transion between the standing and ground work dispclines at speed, without a change quality.<p>
-				<p> The pillars of the clubs success are routed in the training belief that with uchi-comi and high intense ramdory sessions. Each individual player will develop into a rounded competitor due to the focused training. 
-				</div>
-		</div>  <!-- @end mission -->
+						<div class="container"> <!-- @begin main -->
+							<div class="page" id="featured">
+								<div class="change">
+									<div class="container">
+										<article id ="times" class="coach col-sm-6">
+											<h3><strong>Classes</strong><h3>
+												<h4><strong>Juniors</strong><h4>
+													<p>Wednesday 7pm-8pm<p>
+														<p>Friday 7pm-8pm<p>
+															<h3><strong>Seniors</strong><h3>
+																<p>Wednesday 8pm-9:30pm<p>
+																	<p>Friday 8pm-9:30pm<p>
+																	</article>
 
-	<div class="container">
-		<div class="page" id ="coaches">
-			<h2 id="ourcoaches"> Our Coaches</h2>
+																	<article class="coach col-sm-6">
+																		<img id="my-image" src="images/blacklogo.jpg">
+																	</article>
 
-				<article class="coach col-sm-3">
+																</div>
+															</div>
+														</div>
+													</div> <!-- @end main -->
 
-					<img class="img-circle img-responsive" src="images/johndam.png" alt="Photo of John Dam">
-					<h3> John Dam</h3>
-					<p> Senior Coach. <p>
+													<div class="container"> <!-- @begin mission -->
+														<div class="page" id ="mission">
+															<h2> Our Mission</h2>
+															<p>Our Mission is to continue to be a thriving part of the Hamilton community. Allowing people from all walks of life to enjoy our sport.<p>
+
+																<h4> Our History</h4>
+																<p>Formed over 50 years ago in the old town of Hamilton. Self suffient from the start, it automatic became a sport focal point of the community. One of the priniple features was its ability to have its own premises which allowed the developement of top Scottish, British and European champions. These players did train every evening at little costs which was the enabler for there progression in the sport.<p>
+																	<p>The fundementals have never changed in which all players are encouraged to develop there own coaching skills and pass on the Hamilton ethos, to the next generation. Hamilton were particular successfull during the 70's, 80's and 90's. With a brand of Judo which was synonomous with high energy, complex hip techniques and the ability to transion between the standing and ground work dispclines at speed, without a change quality.<p>
+																		<p> The pillars of the clubs success are routed in the training belief that with uchi-comi and high intense ramdory sessions. Each individual player will develop into a rounded competitor due to the focused training. 
+																		</div>
+																	</div>  <!-- @end mission -->
+
+<div class="container">
+<div class="page" id ="coaches">
+<h2 id="ourcoaches"> Our Coaches</h2>
+
+<article class="coach col-sm-3">
+
+	<img class="img-circle img-responsive" src="images/johndam.png" alt="Photo of John Dam">
+	<h3> John Dam</h3>
+	<p> Senior Coach. <p>
+	</article>
+
+
+	<article class="coach col-sm-3">
+
+		<img class="img-circle img-responsive" src="images/dad.png" alt="Photo of John Kane">
+		<h3> John Kane</h3>
+		<p> Our Mission is to continue to be a thringfing part of the Hamilton community. Allowing people from all walks of life to enjoy our community.<p>
+		</article>
+
+
+
+
+		<article class="coach col-sm-3">
+
+			<img class="img-circle img-responsive" src="images/amanda.png" alt="Photo of Amanada">
+			<h3> Amanda</h3>
+			<p> Our Mission is to continue to be a thringfing part of the Hamilton community. Allowing people from all walks of life to enjoy our community.<p>
+			</article>
+
+			<article class="coach col-sm-3">
+
+				<img class="img-circle img-responsive" src="images/jim.png" alt="Photo of jim">
+				<h3> Jim McGrangan</h3>
+				<p> Our Mission is to continue to be a thringfing part of the Hamilton community. Allowing people from all walks of life to enjoy our community.<p>
 				</article>
+			</div><!-- @begin Coaches -->
+		</div> <!-- @end Coaches -->
 
-
-				<article class="coach col-sm-3">
-
-					<img class="img-circle img-responsive" src="images/dad.png" alt="Photo of John Kane">
-					<h3> John Kane</h3>
-					<p> Our Mission is to continue to be a thringfing part of the Hamilton community. Allowing people from all walks of life to enjoy our community.<p>
-				</article>
-
-
-
-
-					<article class="coach col-sm-3">
-
-						<img class="img-circle img-responsive" src="images/amanda.png" alt="Photo of Amanada">
-						<h3> Amanda</h3>
-						<p> Our Mission is to continue to be a thringfing part of the Hamilton community. Allowing people from all walks of life to enjoy our community.<p>
-					</article>
-
-					<article class="coach col-sm-3">
-
-							<img class="img-circle img-responsive" src="images/jim.png" alt="Photo of jim">
-							<h3> Jim McGrangan</h3>
-							<p> Our Mission is to continue to be a thringfing part of the Hamilton community. Allowing people from all walks of life to enjoy our community.<p>
-					</article>
-		</div><!-- @begin Coaches -->
-	</div> <!-- @end Coaches -->
-
-	<div class="container"><!-- @begin Training -->
+<div class="container"><!-- @begin Training -->
 
 			<div class="page" id ="training">
 
-				<h3> Training</h3>
-					<article class="video1 col-sm-4">
+				<h2> Training</h2>
+				<article class="video1 col-sm-4">
 
 
 					<video width ="350"controls= "controls" preload="auto" muted loop ="true" poster="images/blacklogo.jpg">
 
-																				<!-- If the browser can't play WEBM try OGV then MP4 -->
+						<!-- If the browser can't play WEBM try OGV then MP4 -->
 						<source src="video/defense.mp4" type="video/mp4"/>
-							</video>
+					</video>
 
-								<p> Hamilton Judo club loves to continue develop our people and our coaches<p>
-								<p> This can been seen in our commitiment to tour the country to learn from the best coaches in the world and bring it back to Hamilton , with our  spin on it</p>
-					</article>
-
-
-
-					<article class="video2 col-sm-4">
-
-
-
-						<video width ="350"controls= "controls" preload="auto" muted loop ="true" poster="images/blacklogo.jpg">
-
-																					<!-- If the browser can't play WEBM try OGV then MP4 -->
-							<source src="video/techground1.mp4" type="video/mp4"/>
-						</video>
-							<p> Hamilton Judo club loves to continue develop our people and our coaches<p>
-							<p> This can been seen in our commitiment to tour the country to learn from the best coaches in the world and bring it back to Hamilton , with our  spin on it</p>
-					</article>
-
-					<article class="video2 col-sm-4">
-
-						<video width ="350"controls= "controls" preload="auto" muted loop ="true" poster="images/blacklogo.jpg">
-
-							<source src="video/ground.mp4" type="video/mp4"/>
-						</video>
-						<p> Hamilton Judo club loves to continue develop our people and our coaches<p>
+					<p> Hamilton Judo club loves to continue develop our people and our coaches<p>
 						<p> This can been seen in our commitiment to tour the country to learn from the best coaches in the world and bring it back to Hamilton , with our  spin on it</p>
 					</article>
-			</div>
-		
-
-																				<div class=" col-sm-4">
-
-																					<h2> What Mon are you?</h2><hr/>
 
 
-																					<label class="item item-select">
-																						<span class="input-label">Mon Select</span>
-																						<select id="sport" name="sport" onchange="populate(this.id,'Court')" ;>
-																							<option value=""></option>
-																							<option value="1st">1st</option>
-																							<option value="2nd">2nd</option>
-																							<option value="3rd">3rd</option>
-																							<option value="4th">4th</option>
-																							<option value="5th">4th</option>
-																							<option value="6th">6th</option>
-																							<option value="7th">7th</option>
-																							<option value="8th">8th</option>
-																							<option value="9th">9th</option>
-																							<option value="10th">10th</option>
-																							<option value="11th">11th</option>
-																							<option value="12th">12th</option>   
-																						</select>
-																					</label>
-																					<span clput-label">Theory Throws</span>
-																					<select id="Court" name="Court"></select>
 
-			<!-- <select id="slct1" name="slct1" onchange="populate ('slct1', 'slct2')">
+					<article class="video2 col-sm-4">
+
+
+
+						<video width ="350"controls= "controls" preload="auto" muted loop ="true" poster="images/blacklogo.jpg">
+
+							<!-- If the browser can't play WEBM try OGV then MP4 -->
+							<source src="video/techground1.mp4" type="video/mp4"/>
+						</video>
+						<p> Hamilton Judo club loves to continue develop our people and our coaches<p>
+							<p> This can been seen in our commitiment to tour the country to learn from the best coaches in the world and bring it back to Hamilton , with our  spin on it</p>
+						</article>
+
+						<article class="video2 col-sm-4">
+
+							<video width ="350"controls= "controls" preload="auto" muted loop ="true" poster="images/blacklogo.jpg">
+
+								<source src="video/ground.mp4" type="video/mp4"/>
+							</video>
+							<p> Hamilton Judo club loves to continue develop our people and our coaches<p>
+								<p> This can been seen in our commitiment to tour the country to learn from the best coaches in the world and bring it back to Hamilton , with our  spin on it</p>
+							</article>
+						
+
+<div class="container">	
+		<div class=" col-sm-4">
+
+			<h2> What Mon are you?</h2><hr/>
+
+
+
+			<label class="item item-select">
+				<span class="input-label">Mon Select</span>
+				<select id="sport" name="sport" onchange="populate(this.id,'Court')" ;>
 				<option value=""></option>
-				<option value="1st"> 1st Mon</option>
-				<option value="2nd"> 2nd Mon</option>
-				<option value="3rd"> 3rd Mon</option>
-				<option value="4th"> 4th Mon</option>
-				<option value="5th"> 5th Mon</option>
-				<option value="6th"> 6th Mon</option>
-				<option value="7th"> 7th Mon</option>
-				<option value="8th"> 8th Mon</option>
-				<option value="9th"> 9th Mon</option>
-				<option value="10th"> 10th Mon</option>
-				<option value="11th"> 11th Mon</option>
-				<option value="12th"> 12th Mon</option>
-			</select>
-			<hr/>
-			Choose your throw:
-			<select id="slct2" name="slct2"></select>
-		-->
+				<option value="1st">1st</option>
+				<option value="2nd">2nd</option>
+				<option value="3rd">3rd</option>
+				<option value="4th">4th</option>
+				<option value="5th">5th</option>
+				<option value="6th">6th</option>
+				<option value="7th">7th</option>
+				<option value="8th">8th</option>
+				<option value="9th">9th</option>
+				<option value="10th">10th</option>
+				<option value="11th">11th</option>
+				<option value="12th">12th</option>   
+				</select>
+			</label>
+		</div>	
 
-		
-    				<!-- <li><a id="on-click" href="#">1st</a></li>
-    				<li><a href="#">2nd</a></li>
-    				<li><a href="#">3rd</a></li>
-  					<li><a href="#">4th</a></li>
-  					<li><a href="#">5th</a></li>
-  					<li><a href="#">6th</a></li>
-  					<li><a href="#">7th</a></li>
-  					<li><a href="#">8th</a></li>
-  					<li><a href="#">9th</a></li>
-  					<li><a href="#">10th</a></li>
-  					<li><a href="#">11th</a></li>
-  					<li><a href="#">12th</a></li> -->
+		<div class=" col-sm-4">
+			<h2> Techinques</h2><hr/>
 
-  					<!-- </ul> -->
+			<span clput-label">Theory Throws</span>
+			<select id="Court" name="Court"></select>
+		</div>
+
+		<div class=" col-sm-4">	
+
+			<div class="throws">
+			<h2> Video Library</h2><hr/>
+			<a class = "throwDetails"></a>
+			</div>
+		</div>
+</div>
+
+ 	
+  	<!-- <div class="throws">
+			<h1> Current Throw</h1>
+			<<a href="youtube.com">
+
+			<p>"throwDetails"</p>
+		</div>			 -->
+
+
+
+
+ <!-- @end training -->
+
+
+  			<footer>
+  				<div class="container">
+  					<div>Call us on <span class="phone">07747 740 900 </span></div>
+  					<div>Email us on <span class="email">john.dambrosio@hamiltonjudoclub.co.uk</span></div>
+  					<nav class="nav navbar-default" role="navigation">
+  						<ul class="nav navbar-bar navbar-center">
+  							<li><a href="#">Terms of us</a></li>
+  							<li><a href="#">Privacy policy</a></li>
+  						</ul>
+  					</nav>
+  					<p>50 years of Hamilton Judo club<p>
+  					</footer>
   				</div>
 
-  				<article class="col-sm-4">
 
-  				</article>
-
-
-
-  				
-			</div> <!-- @end training -->
-
-
-  				<footer>
-  					<div class="container">
-  						<div>Call us on <span class="phone">07747 740 900 </span></div>
-  						<div>Email us on <span class="email">john.dambrosio@hamiltonjudoclub.co.uk</span></div>
-  						<nav class="nav navbar-default" role="navigation">
-  							<ul class="nav navbar-bar navbar-center">
-  								<li><a href="#">Terms of us</a></li>
-  								<li><a href="#">Privacy policy</a></li>
-  							</ul>
-  						</nav>
-  						<p>50 years of Hamilton Judo club<p>
-  						</footer>
-  					</div>
-
-
-
-  					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>	
-  					<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  					<script type="text/javascript" src="js/myscript.js"></script>
-
-
-  				</body>
-  				</html>
+  			</body>
+  			</html>

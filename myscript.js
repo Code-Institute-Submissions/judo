@@ -5,3 +5,8 @@ $(document).ready(function(){
       $img.attr("src","images/jock.jpg");
 	});
 });
+
+$('.carousel').carousel({
+	interval: 10000
+});
+
