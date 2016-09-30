@@ -75,19 +75,101 @@ function populate(s1, s2) {
      $('#Court').on('change',function() {
         var currentThrow =  '';
          currentThrow += $('#Court option:selected').text();
-        
+
         if (currentThrow == ' O Goshi'){
           $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/GDWtRtJ23cM" frameborder="0" allowfullscreen></iframe></a>')
         }
-        else{
-          if (currentThrow == 'Uki Goshi'){
-          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/CvcvDKyNq5M" frameborder="0" allowfullscreen></iframe>'+currentThrow+'</a><p text-align= "center" >Use this throw in ...<')
+
+        else if (currentThrow == 'Uki Goshi'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/dFXK9plNIss" frameborder="0" allowfullscreen></iframe>'+currentThrow+'</a><p text-align= "center" >Use this throw in ...<')
         }
+        else if (currentThrow == 'Ko Uchi Gari'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/6fue1B1eeEU" frameborder="0" allowfullscreen></iframe>'+currentThrow+'</a><p text-align= "center" >Use this throw in ...<')
+        }
+
+        else if (currentThrow == ' Uchi Gari'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/6OxoWzpwezo" frameborder="0" allowfullscreen></iframe>'+currentThrow+'</a><p text-align= "center" >Use this throw in ...<')
+        }
+
+        else if (currentThrow == ' Tai Otoshi'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/SGHQrj09O-g" frameborder="0" allowfullscreen></iframe>'+currentThrow+'</a><p text-align= "center" >Use this throw in ...<')
+        } 
+        else if (currentThrow == 'Ippon Seoi Nage'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/d8p_9v0z4Vo" frameborder="0" allowfullscreen></iframe>'+currentThrow+'</a><p text-align= "center" >Use this throw in ...<')
+        }
+        else if (currentThrow == 'Morote Seoi Nage'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/8OlVomIEq7k"" frameborder="0" allowfullscreen></iframe>'+currentThrow+'</a><p text-align= "center" >Use this throw in ...<')
+        }
+        else if (currentThrow == ' Ko Soto Gari'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/jkH26994RQ8" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == 'Ko Soto Gake'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/QpE9TREP9ys" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == 'O Soto Guruma'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/Ao_b43xexzA" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == ' O Guruma'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/HAuCuneVir0" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == 'Ashi Guruma'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/g5Zr3tko09I" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == 'Harai Goshi'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/p0siU36PPl4" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == ' Hane Goshi'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/8uMpScY5cGs" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == 'Uci Mata'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/MpGipYUGWdw" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == ' De Ashi Barai'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/VFgPK3l5d9U" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == 'Okuri Ashi Barai'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/zUlBk10DAgM" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == ' Sasae Tsuri Komi Ashi'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/H8imPoRAz9Y" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == 'Hiza Guruma'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/VDsiBURKj-s" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == ' Ushiro Goshi'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/IUXwnGUlHtw" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == 'Tani Otoshi'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/2nC1O0pKQEQ" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == 'Sode Tsuri Komi Goshi'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/v1fsnjDwLDo" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == ' Sumi Gaeshi'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/kod5QHdmE7E" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == 'Tomoe Nage'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/pwc8xccqgTU" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == ' Te Guruma'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/IWq8uU0SKKU" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == 'Soto Makikomi'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/QWa4EjZWGV8" frameborder="0" allowfullscreen></iframe>')
+        }
+        else if (currentThrow == 'Yoka Wakare'){
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/aqXHugSvT18" frameborder="0" allowfullscreen></iframe>')
+        }
+
+        
+        
+
+
+
         else{
           console.log('Nope');
         }
 
-     }
      })
 
   }
