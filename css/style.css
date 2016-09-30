@@ -1,3 +1,22 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Roboto+Slab:100,300,400,700';
+
+
+
+body{
+	padding-top: 50px;
+	font-family: "Roboto Slab", sans-serif;
+	font-weight: 300;
+	font-size:2em;
+	positive: relative;
+
+}
+
+h1,h2,h3 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+	margin: 0;
+	color: #DF691A;
+}
 img {
 	max-width:200px
 
@@ -6,14 +25,44 @@ img {
 	padding:10px
 }
 
-#page {
-	padding: 10px;
-	margin-top: 500px;
+.page {
+	padding: 50px 0;
+	
 
 }
-h2{
-	 text-align: center;
-	 text-decoration: underline;
 
+.page h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+	
+
+
+footer .navbar-default {
+	background: transparent;
+}
+
+header .navbar-default {
+	background: transparent;
+}
+
+.throwDetails h2{
+
+	text-align: center;
 
 }
+
+// #videoWrapper {
+// 	position: relative;
+// 	padding-bottom: 56.25%; /* 16:9 */
+// 	padding-top: 25px;
+// 	height: 0;
+// }
+// #videoWrapper iframe {
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	width: 75%;
+// 	height: 75%;
+// }

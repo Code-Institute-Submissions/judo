@@ -77,11 +77,11 @@ function populate(s1, s2) {
          currentThrow += $('#Court option:selected').text();
         
         if (currentThrow == ' O Goshi'){
-          $('.throwDetails').html('<h1>'+currentThrow+'</h1> <a href="https://www.youtube.com/watch?v=GDWtRtJ23cM" class="btn btn-info" role="button">'+currentThrow+'</a><p>Use this throw in ...</p>')
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/GDWtRtJ23cM" frameborder="0" allowfullscreen></iframe></a>')
         }
         else{
           if (currentThrow == 'Uki Goshi'){
-          $('.throwDetails').html('<h1>'+currentThrow+'</h1> <a href="https://www.youtube.com/watch?v=3Fklhya3iu4 class="btn btn-info" role="button">'+currentThrow+'</a><p>Use this throw in ...</p>')
+          $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/CvcvDKyNq5M" frameborder="0" allowfullscreen></iframe>'+currentThrow+'</a><p text-align= "center" >Use this throw in ...<')
         }
         else{
           console.log('Nope');
@@ -91,3 +91,12 @@ function populate(s1, s2) {
      })
 
   }
+
+  // $(document).ready(function() {
+  // $('#play-video').on('click', function(ev) {
+ 
+  //   $("#video")[0].src += "&autoplay=1";
+  //   ev.preventDefault();
+ 
+//   });
+// });
