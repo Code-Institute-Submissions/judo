@@ -43,8 +43,12 @@ footer .navbar-default {
 	background: transparent;
 }
 
+// header .navbar-default {
+// 	background: transparent;
+// }
+
 header .navbar-default {
-	background: transparent;
+	background: black;
 }
 
 .throwDetails h2{
