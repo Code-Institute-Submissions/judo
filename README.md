@@ -14,4 +14,22 @@
 * JQuery
 * javascript
 
+##  Tech Challenges
+
+### Understanding how to go through the stages of choosing a mon then it
+### displays the necessary video from YouTube. To achieve this
+### i used if, else if statement. Then ensuring that the splits matched up
+### Then linked .throwdetails to the iframe Youtube link. 
+
+## Bootstrap/Mobile Nav
+
+### On mobile display the Nav Bar once pressed. Stayed down and was getting in 
+### the way of the content of the screen. So 
+### I had to use a JQuery function when the 
+### nav bar was on toggle then bar releases back up
+###
+
+
+
+
 
