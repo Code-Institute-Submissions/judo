@@ -12,6 +12,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/myscript.js"></script>
 </head>
+
 <body data-spy="scroll" data-target=".navbar-fixed-top">
 
 	<header>
@@ -29,72 +30,70 @@
 
 				<div class="collapse navbar-collapse" id="collapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li class="active"><a href="#featured">Home</a><li>
-							<li><a href="#mission">Mission</a><li>
-								<li><a href="#coaches">Coaches</a><li>
-									<li><a href="#training">Training Schedule</a><li>
-									</ul>
-								</div>
-							</div>
-						</nav>
-					</header>
+						<li class="active"><a href="#featured" data-toggle="collapse" data-target=".nav-collapse.in">Home</a><li>
+						<li><a href="#mission">Mission</a><li>
+						<li><a href="#coaches">Coaches</a><li>
+						<li><a href="#training">Training Schedule</a><li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
 
-					<div>
+	<div>
 
-						<div class="container" id="featured"> <!-- @begin container-fluid -->
+		<div class="container" id="featured"> <!-- @begin container-fluid -->
 
-							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
 								<!-- Indicators -->
-								<ol class="carousel-indicators">
-									<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-									<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-								</ol>
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			</ol>
 
 								<!-- Wrapper for slides -->
-								<div class="carousel-inner" role="listbox">
+		<div class="carousel-inner" role="listbox">
 
-									<div class="item active">
-										<img src="images/ground copy.jpg" alt="...">
-										<div class="carousel-caption">
-											<p>Ground Work</p>
-										</div>
-									</div>
+			<div class="item active">
+				<img src="images/ground copy.jpg" alt="...">
+					<div class="carousel-caption">
+						<p>Ground Work</p>
+					</div>
+			</div>
 
-									<div class="item">
-										<img src="images/coaches.png" alt="...">
-										<div class="carousel-caption">
-											<p>Coaches</p>
-										</div>
-									</div>
-									<div class="item">
-										<img src="images/logo.png" alt="...">
-										<div class="carousel-caption">
-											<p>Logo</p>
-										</div>
-									</div>
-									<div class="item">
-										<img src="images/session.png" alt="...">
-										<div class="carousel-caption">
-											<p>Session</p>
-										</div>
-									</div>
+			<div class="item">
+				<img src="images/coaches.png" alt="...">
+					<div class="carousel-caption">
+						<p>Coaches</p>
+					</div>
+			</div>
 
+			<div class="item">
+				<img src="images/logo.png" alt="...">
+					<div class="carousel-caption">
+						<p>Logo</p>
+					</div>
+			</div>
 
+			<div class="item">
+				<img src="images/session.png" alt="...">
+					<div class="carousel-caption">
+						<p>Session</p>
+					</div>
+			</div>
 
-								</div>
+		</div>
 
-								<!-- Controls -->
-								<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-									<span class="sr-only">Previous</span>
-								</a>
-								<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-									<span class="sr-only">Next</span>
-								</a>
-							</div>
-						</div> <!-- @end container-fluid -->
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span></a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span></a>
+		</div>
+	</div> <!-- @end container-fluid -->
 
 
 				<div class="container"> <!-- @begin main -->
@@ -103,129 +102,112 @@
 							<div class="container">
 								<article id ="times" class="coach col-sm-6">
 									<h3><strong>Classes</strong><h3>
-										<h4><strong>Juniors</strong><h4>
-											<p>Wednesday 7pm-8pm<p>
-												<p>Friday 7pm-8pm<p>
-													<h4><strong>Seniors</strong><h4>
-														<p>Wednesday 8pm-9:30pm<p>
-															<p>Friday 8pm-9:30pm<p>
-															</article>
+									<h4><strong>Juniors</strong><h4>
+									<p>Wednesday 7pm-8pm<p>
+									<p>Friday 7pm-8pm<p>
+									<h4><strong>Seniors</strong><h4>
+									<p>Wednesday 8pm-9:30pm<p>
+									<p>Friday 8pm-9:30pm<p>
+								</article>
 
-															<article class="coach col-sm-6">
-																<img id="my-image" src="images/blacklogo.jpg">
-															</article>
+								<article class="coach col-sm-6">
+									<img id="my-image" src="images/blacklogo.jpg">
+								</article>
 
-														</div>
-													</div>
-												</div>
-											</div> <!-- @end main -->
+							</div>
+						</div>
+					</div>
+				</div> <!-- @end main -->
 
 		<div class="container"> <!-- @begin mission -->
-				<div class="page" id ="mission">
-						<h2> Our Mission</h2>
-							<p>Our Mission is to continue to be a thriving part of the Hamilton community. Allowing people from all walks of life to enjoy our sport.<p>
+			<div class="page" id ="mission">
+				<h2> Our Mission</h2>
+				<p>Our Mission is to continue to be a thriving part of the Hamilton community. Allowing people from all walks of life to enjoy our sport.<p>
+				<h4> Our History</h4>
+				<p>Formed over 50 years ago in the old town of Hamilton. Self sufficient from the start, it automatically became a sport focal point of the community. One of the principle features was its ability to have its own premises which allowed the development of top Scottish, British and European champions. These players were able to train every evening at little cost which was the enabler for there progression in the sport.</p>
+				<p>Moving from the old town to Hill House in the 90’s has expanded the club’s catchment area. The junior classes can have 40 kids on the mat at one time. The Senior class up to 15 black belts on certain nights. Hamilton always have visiting Judo players from around the world at the sessions to try their own abilities in our legendary Randori sessions. <p>
+				<p>The fundamentals have never changed in which all players are encouraged to develop their own coaching skills and pass on the Hamilton ethos, to the next generation. Hamilton were particular successful during the 70's, 80's and 90's. With a brand of Judo which was synonymous with high energy, complex hip techniques and the ability to transitions between the standing and ground work disciplines at speed, without a change in quality.<p>
+				<p> The pillars of the clubs success are routed in the training belief that with uchi-komi and high intense Randori sessions. Each individual player will develop into a rounded competitor due to the focused training.</p> 
+			</div>
+		</div>  <!-- @end mission -->
 
-									<h4> Our History</h4>
-													<p>Formed over 50 years ago in the old town of Hamilton. Self sufficient from the start, it automatically became a sport focal point of the community. One of the principle features was its ability to have its own premises which allowed the development of top Scottish, British and European champions. These players were able to train every evening at little cost which was the enabler for there progression in the sport.
-													</p>
-													<p>
+	<div class="container"><!-- @begin Coaches -->
+		<div class="page" id ="coaches">
+			<h2 id="ourcoaches"> Our Coaches</h2>
 
-													Moving from the old town to Hill House in the 90’s has expanded the club’s catchment area. The junior classes can have 40 kids on the mat at one time. The Senior class up to 15 black belts on certain nights. Hamilton always have visiting Judo players from around the world at the sessions to try their own abilities in our legendary Randori sessions. 
-													<p>
-														<p>The fundamentals have never changed in which all players are encouraged to develop their own coaching skills and pass on the Hamilton ethos, to the next generation. Hamilton were particular successful during the 70's, 80's and 90's. With a brand of Judo which was synonymous with high energy, complex hip techniques and the ability to transitions between the standing and ground work disciplines at speed, without a change in quality.
-														<p>
-															<p> The pillars of the clubs success are routed in the training belief that with uchi-komi and high intense Randori sessions. Each individual player will develop into a rounded competitor due to the focused training.
-															</p> 
-															</div>
-														</div>  <!-- @end mission -->
+				<article class="coach col-sm-3">
 
-<div class="container">
-<div class="page" id ="coaches">
-<h2 id="ourcoaches"> Our Coaches</h2>
-
-<article class="coach col-sm-3">
-
-	<img class="img-circle img-responsive" src="images/johndam.png" alt="Photo of John Dam">
-	<h3> John Dam</h3>
-	<p> John's combat knowledge of judo is second to none. An outstanding player does not always make for a excelent coach. John has continue to develop his coaching style and at this stage he is the best coach in the British Isles.  <p>
-	</article>
-
-
-	<article class="coach col-sm-3">
-
-		<img class="img-circle img-responsive" src="images/dad.png" alt="Photo of John Kane">
-		<h3> John Kane</h3>
-		<p> One of the greatest hip technique’s that has graced the UK in over 50 years. When he fought in competition, he was able to show hip technique’s in its purest form, with a touch of showmanship to finish it off. As a coach he is able to break down the mechanics of each technique to provided his students with the secret of how to do Judo, without the need of strength and to rely on its purest form.
-
-  		<p>
-		</article>
-
-
-
-
-		<article class="coach col-sm-3">
-
-			<img class="img-circle img-responsive" src="images/amanda.png" alt="Photo of Amanada">
-			<h3> Amanda Weir</h3>
-			<p> Her range of knowledge of Judo and her speed of execution is top class on a Judo mat. This means that Amanda coaches a type of judo that relies on balance to gain maximum advantage in any situation. One of the top female coaches in the country.
-   				<p>
-			</article>
-
-			<article class="coach col-sm-3">
-
-				<img class="img-circle img-responsive" src="images/jim.png" alt="Photo of jim">
-				<h3> Jim McGranachan</h3>
-				<p> Jim's fighting style is all about perfection and agility. At times beating opponents with technique’s that players had only seen in judo books, not in actual real life. Excellent experienced coach that gives balance, passion and a different insight into a range of standing and ground work technique’s.
- 				<p>
+					<img class="img-circle img-responsive" src="images/johndam.png" alt="Photo of John Dam">
+					<h3> John Dam</h3>
+					<p> John's combat knowledge of judo is second to none. An outstanding player does not always make for a excelent coach. John has continue to develop his coaching style and at this stage he is the best coach in the British Isles.  <p>
 				</article>
-			</div><!-- @begin Coaches -->
+
+
+				<article class="coach col-sm-3">
+
+					<img class="img-circle img-responsive" src="images/dad.png" alt="Photo of John Kane">
+					<h3> John Kane</h3>
+					<p> One of the greatest hip technique’s that has graced the UK in over 50 years. When he fought in competition, he was able to show hip technique’s in its purest form, with a touch of showmanship to finish it off. As a coach he is able to break down the mechanics of each technique to provided his students with the secret of how to do Judo, without the need of strength and to rely on its purest form.<p>
+				</article>
+
+
+				<article class="coach col-sm-3">
+
+					<img class="img-circle img-responsive" src="images/amanda.png" alt="Photo of Amanada">
+					<h3> Amanda Weir</h3>
+					<p> Her range of knowledge of Judo and her speed of execution is top class on a Judo mat. This means that Amanda coaches a type of judo that relies on balance to gain maximum advantage in any situation. One of the top female coaches in the country.
+   					<p>
+				</article>
+
+				<article class="coach col-sm-3">
+
+					<img class="img-circle img-responsive" src="images/jim.png" alt="Photo of jim">
+					<h3> Jim McGranachan</h3>
+					<p> Jim's fighting style is all about perfection and agility. At times beating opponents with technique’s that players had only seen in judo books, not in actual real life. Excellent experienced coach that gives balance, passion and a different insight into a range of standing and ground work technique’s.<p>
+				</article>
+			</div>
 		</div> <!-- @end Coaches -->
 
-<div class="container"><!-- @begin Training -->
+	<div class="container"><!-- @begin Training -->
 
 			<div class="page" id ="training">
 
 				<h2> Training</h2>
 				<article class="video1 col-sm-4">
-
-
 					<video width ="350"controls= "controls" preload="auto" muted loop ="true" poster="images/blacklogo.jpg">
 
 						<!-- If the browser can't play WEBM try OGV then MP4 -->
-						<source src="video/defense.mp4" type="video/mp4"/>
+					<source src="video/defense.mp4" type="video/mp4"/>
 					</video>
 
 					<p> The transition between ground work and up top is a major aspect that needs to be factor into your training <p>
-						<p> In this clip John Dam is developing your movement left and right when you are on the ground. </p>
-					</article>
+					<p> In this clip John Dam is developing your movement left and right when you are on the ground. </p>
+				</article>
 
 
 
-					<article class="video2 col-sm-4">
-
-
-
-						<video width ="350"controls= "controls" preload="auto" muted loop ="true" poster="images/blacklogo.jpg">
+				<article class="video2 col-sm-4">
+					<video width ="350"controls= "controls" preload="auto" muted loop ="true" poster="images/blacklogo.jpg">
 
 							<!-- If the browser can't play WEBM try OGV then MP4 -->
-							<source src="video/techground1.mp4" type="video/mp4"/>
-						</video>
-						<p> Ground work can be tough especially when you are 20 kilos lighter than your opponent...<p>
-							<p> So you need to use all your levers when you are trying to control and move the player. In this clip John Dam using his legs to provide the power. Play close attention to his right arm in this video</p>
-						</article>
+					<source src="video/techground1.mp4" type="video/mp4"/>
+					</video>
+					<p> Ground work can be tough especially when you are 20 kilos lighter than your opponent...<p>
+					<p> So you need to use all your levers when you are trying to control and move the player. In this clip John Dam using his legs to provide the power. Play close attention to his right arm in this video</p>
+				</article>
 
-						<article class="video2 col-sm-4">
+				<article class="video2 col-sm-4">
 
-							<video width ="350"controls= "controls" preload="auto" muted loop ="true" poster="images/blacklogo.jpg">
+					<video width ="350"controls= "controls" preload="auto" muted loop ="true" poster="images/blacklogo.jpg">
 
-								<source src="video/ground.mp4" type="video/mp4"/>
-							</video>
-							<p> Judo is not performed in a static enviroment so it is important to be fully aware of all your tools at any time<p>
-								<p> The majority of Judo Players will be looking to grab an arm and turn when faced with this situation. John Dam uses the opponents own montemum to create the space for a quick and simply strangle.</p>
-							</article>
+					<source src="video/ground.mp4" type="video/mp4"/>
+					</video>
+					<p> Judo is not performed in a static enviroment so it is important to be fully aware of all your tools at any time<p>
+					<p> The majority of Judo Players will be looking to grab an arm and turn when faced with this situation. John Dam uses the opponents own montemum to create the space for a quick and simply strangle.</p>
+				</article>
 						
 
-<div class="container">	
+	<div class="container">	
 		<div class=" col-sm-4">
 
 			<h2> What Mon are you?</h2><hr/>
@@ -264,27 +246,14 @@
 			<div class="throws">
 			<h2> Video Library</h2><hr/>
 			<a class = "throwDetails"></a>
-			
 			</div>
 		</div>
-</div>
-
- 	
-  	<!-- <div class="throws">
-			<h1> Current Throw</h1>
-			<<a href="youtube.com">
-
-			<p>"throwDetails"</p>
-		</div>			 -->
-
-
-
-
- <!-- @end training -->
+	</div><!-- @end training -->
 
 
   			<footer>
   				<div class="container">
+  					<div class="space">
   					<div>Call us on <span class="phone">07747 740 900 </span></div>
   					<div>Email us on <span class="email">john.dambrosio@hamiltonjudoclub.co.uk</span></div>
   					<nav class="nav navbar-default" role="navigation">
@@ -294,9 +263,9 @@
   						</ul>
   					</nav>
   					<p>50 years of Hamilton Judo club<p>
-  					</footer>
+  					</div>
   				</div>
+			</footer>
 
-
-  			</body>
-  			</html>
+ </body>
+ </html>

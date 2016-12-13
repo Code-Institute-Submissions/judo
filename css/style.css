@@ -57,6 +57,10 @@ header .navbar-default {
 
 }
 
+.space {
+	padding: 100px;
+}
+
 // #videoWrapper {
 // 	position: relative;
 // 	padding-bottom: 56.25%; /* 16:9 */

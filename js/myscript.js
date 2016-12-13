@@ -1,24 +1,3 @@
-// $(document).ready(function(){
-
-
-
-// 	// $("#my-image").mouseover('click', function(event) {
-//       var $img = $("#my-image");
-//       $img.attr("src","images/jock.jpg");
-// 	});
-// });
-
-// $("#times").mouseover(function(){
-//     $("#my-image").attr("src","images/jock.jpg");
-// });
-// });
-
-// $("#on-click").on("click", function()){
-// 	$("")
-// }
-
-//
-
 function populate(s1, s2) {
     var s1 = document.getElementById(s1);
     var s2 = document.getElementById(s2);
@@ -161,11 +140,6 @@ function populate(s1, s2) {
           $('.throwDetails').html('<iframe width="360" height="250" src="https://www.youtube.com/embed/aqXHugSvT18" frameborder="0" allowfullscreen></iframe>')
         }
 
-        
-        
-
-
-
         else{
           console.log('Nope');
         }
@@ -174,11 +148,13 @@ function populate(s1, s2) {
 
   }
 
-  // $(document).ready(function() {
-  // $('#play-video').on('click', function(ev) {
- 
-  //   $("#video")[0].src += "&autoplay=1";
-  //   ev.preventDefault();
- 
-//   });
-// });
+
+
+
+$(function() {
+    $('.nav a').on('click touchstart', function(){ 
+        if($('.navbar-toggle').css('display') !='none'){
+            $(".navbar-toggle").trigger( "click" );
+        }
+    });
+});
